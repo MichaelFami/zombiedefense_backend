@@ -1,7 +1,7 @@
 const { Schema } = require('mongoose')
 const scoreSchema = new Schema (
    {
-      user: { type: String, required: true },
+      username: { type: String, required: true },
       score: { type: String, required: true },
       
    },
